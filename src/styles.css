@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App{
+   
+   height: 100vh;
+}
+
+header{
+    transform: translateY(-20px);
+    background: rgb(235, 179, 59);
+    width: 100%;
+    height: 100px;
+}
+
+h1{ width: 400px;
+    font-size: 1.9em;
+    transform: translate(40px,17px);
+}
+
+.create-memo{
+    transform: translate(600px, 100px);
+    padding: 10px;
+    border-radius: 15px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(201, 108, 219);
+    box-shadow: 30px 15px 30px rgba(0, 0, 0, 0.212)
+                
+}
+
+input:focus,
+textarea{
+    outline: none;
+}
+
+
+
+input{
+    color: #ffff;
+    font-size: 2em;
+    border: none;
+    margin: 10px;
+    background:none;
+}
+
+textarea{
+    color: #ffff;
+    font-size: 2em;
+    border: none;
+    margin: 10px;
+    background:none;
+}
+
+.add-memo{
+    width: 70px;
+    height: 70px;
+    transform: translate(600px,40px);
+    border: none;
+    border-radius: 50%;
+    box-shadow:10px 13px 30px rgba(0, 0, 0, 0.171) ;
+}
+
+.memo-usher{
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.memo{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    border-radius: 15px;
+    transform: translate(30px,200px);
+    background: rgb(182, 47, 182);
+    width: 500px;
+    box-shadow:10px 13px 30px rgba(0, 0, 0, 0.219) ;
+}
+p{   color: #ffff;
+    font-size: 2em;
+}
+
+.delete{  
+    transform: translateX(450px) ;
+    color: rgb(238, 180, 32);
+    border: none;
+    background: none;
+}
+footer{
+    transform: translate(42.5vw,50vh);
+    display: flex;
+    padding: 10px;
+    font-size: 2em;
+    position: absolute;
+    width: 260px;
+    background: rgba(0, 0, 255, 0.103);
+   
+}
+
+.attache{
+    transform: translateY(10px);
+}
